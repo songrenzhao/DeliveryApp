@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage"
+    android:background="@drawable/login">
+
+    <EditText
+        android:id="@+id/edtappRoom"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="258dp"
+        android:drawableLeft="@drawable/ic_action_place"
+        android:ems="10"
+        android:hint="Apt/Room"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtPhone_Signup"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:drawableLeft="@drawable/ic_action_usercreate"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtRePassword"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp"
+        android:drawableLeft="@drawable/ic_action_passcreate"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="271dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="           Almost There"
+        android:textAllCaps="false"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="268dp"
+        android:drawableLeft="@drawable/ic_action_place"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp"
+        android:drawableLeft="@drawable/ic_action_phone"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_SignUp"
+                android:layout_width="259dp"
+                android:layout_height="55dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.7"
+                android:background="@color/colorPrimaryDark"
+                android:text="Sign Up" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:drawableLeft="@drawable/ic_action_passcreate"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+</RelativeLayout>

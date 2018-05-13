@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodOrder"
+    android:background="@drawable/loginbackground"
+    >
+
+    <TextView
+        android:id="@+id/txtCream"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCakeDecrease"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="82dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="82dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/btnVegeInc"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnVegeInc"
+        android:layout_marginTop="128dp"
+        android:text="Mocha Ice Cream: $3"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/btnVegeInc"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btnCakeIncrease"
+        android:layout_alignStart="@+id/btnCakeIncrease"
+        android:layout_alignTop="@+id/btnVegDecr"
+        android:text="+"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginTop="184dp"
+        app:srcCompat="@drawable/vege1" />
+
+    <Button
+        android:id="@+id/btnCakeIncrease"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnCakeDecrease"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text="+"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        app:srcCompat="@drawable/cake1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp" />
+
+    <Button
+        android:id="@+id/btnVegDecr"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btnCakeDecrease"
+        android:layout_alignStart="@+id/btnCakeDecrease"
+        android:layout_alignTop="@+id/imageView4"
+        android:text="-"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtVege"
+        android:layout_width="44dp"
+        android:layout_height="20dp"
+        android:layout_alignBaseline="@+id/btnVegDecr"
+        android:layout_alignLeft="@+id/txtCream"
+        android:layout_alignStart="@+id/txtCream"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/btnCakeDecrease"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginEnd="134dp"
+        android:layout_marginRight="134dp"
+        android:text="-"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="60dp"
+        android:alpha="0.6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Songren Zhao's Restaurent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Stir-Fried Vegetables: $5"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="101dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginBottom="242dp"
+        app:srcCompat="@drawable/meat1" />
+
+    <Button
+        android:id="@+id/btnMeatDecre"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/btnVegDecr"
+        android:layout_alignTop="@+id/imageView6"
+        android:text="-"
+        android:textSize="20sp"
+        android:layout_alignLeft="@+id/btnVegDecr" />
+
+    <Button
+        android:id="@+id/btnMeatIncre"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignTop="@+id/imageView6"
+        android:text="+"
+        android:textSize="20sp"
+        android:layout_alignRight="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txtMeat"
+        android:layout_width="44dp"
+        android:layout_height="20dp"
+        android:layout_alignBaseline="@+id/btnMeatDecre"
+        android:layout_alignStart="@+id/txtCream"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Deep Fried Mix Meat: $10"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="349dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        tools:text=" " />
+
+</RelativeLayout>

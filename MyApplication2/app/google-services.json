@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "187957098147",
+    "firebase_url": "https://zhaoeatingapp.firebaseio.com",
+    "project_id": "zhaoeatingapp",
+    "storage_bucket": "zhaoeatingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187957098147:android:a7515f0b1b2efba2",
+        "android_client_info": {
+          "package_name": "com.example.zhao.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187957098147-g9hft4ba7ja31tenqvmdkdn0fn6q5661.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zhao.myapplication",
+            "certificate_hash": "f7eddcc8095d1b003602d5d8ae7e65b680daae68"
+          }
+        },
+        {
+          "client_id": "187957098147-60gg31p25deapgdfdg81ima9ld0c9d2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zhao.myapplication",
+            "certificate_hash": "c14ccf1ea7de2c9444b505cf91a8aa88552aeb9a"
+          }
+        },
+        {
+          "client_id": "187957098147-8on9jpdu1vf5o2jrgtn2d44h7414kku3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBytZQKvW30cJarJzmKXIH4VArQivqHdCA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187957098147-8on9jpdu1vf5o2jrgtn2d44h7414kku3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
