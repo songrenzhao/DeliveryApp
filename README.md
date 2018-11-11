@@ -1,2 +1,2 @@
 # DeliveryApp
-A food order app using Firebase database
+A Food order app using Firebase database
